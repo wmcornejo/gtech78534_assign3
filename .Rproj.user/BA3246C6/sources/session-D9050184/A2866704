@@ -3,7 +3,7 @@
     "path": "~/Desktop/school/webGIS/assign_3/index.qmd",
     "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "3190454699",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1739937835278.0,
@@ -18,14 +18,14 @@
         "rmdVisualCollapsedChunks": "",
         "rmdVisualModeLocation": "342:21",
         "cursorPosition": "30,94",
-        "scrollLine": "15"
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1739968381,
+    "lastKnownWriteTime": 1739991234,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1739968381037,
+    "last_content_update": 1739991234,
     "read_only": false,
     "read_only_alternatives": []
 }

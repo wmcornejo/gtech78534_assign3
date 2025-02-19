@@ -1,14 +1,14 @@
 {
-    "id": "D774ECE2",
-    "path": "~/Desktop/school/webGIS/assign_3/open_letter.qmd",
-    "project_path": "open_letter.qmd",
+    "id": "C1EFF0DF",
+    "path": "~/Desktop/school/webGIS/assign_3/about.qmd",
+    "project_path": "about.qmd",
     "type": "quarto_markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1739971214517.0,
+    "created": 1739998053552.0,
     "source_on_save": false,
-    "relative_order": 5,
+    "relative_order": 7,
     "properties": {
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
@@ -16,9 +16,7 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "105:0",
-        "cursorPosition": "9,24",
-        "scrollLine": "7"
+        "rmdVisualModeLocation": "2:0"
     },
     "folds": "",
     "lastKnownWriteTime": 1739991234,
