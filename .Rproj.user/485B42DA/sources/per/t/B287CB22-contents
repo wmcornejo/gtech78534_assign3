@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Assignment 3"
+  navbar:
+    search: true
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: open_letter.qmd
+        text: Letter
+        icon: "book"
+      - text: Map
+        menu:
+        - Map.qmd
+      - Data.qmd
+
+format:
+  html:
+    theme: cerulean
+    css: styles.css
+    toc: true
+
+editor: visual
+

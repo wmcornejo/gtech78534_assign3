@@ -1,0 +1,31 @@
+---
+title: "Assignment 3"
+---
+
+# Addressing COVID-19 Concerns to the Mayor
+
+There is a map section, data to show what is used, the open letter for the last homework
+
+::: grid
+::: g-col-4
+### Map
+
+Explore the interactive map to visualize COVID-19 data across the city. [View Map](#map-section)
+:::
+
+::: g-col-4
+### Data
+
+See the datasets used in this project and how they were analyzed. [View Data](#data-section)
+:::
+
+::: g-col-4
+### Template Letter
+
+Read the open letter to the mayor addressing key concerns and recommendations. [Read and Sign Letter](#open-letter)
+:::
+:::
+
+------------------------------------------------------------------------
+
+This project was created as part of **GTECH 78534** to address COVID-19 concerns in our city.\

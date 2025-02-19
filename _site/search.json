@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Assignment 3",
+    "section": "",
+    "text": "There is a map section, data to show what is used, the open letter for the last homework\n\n\n\nExplore the interactive map to visualize COVID-19 data across the city. View Map\n\n\n\nSee the datasets used in this project and how they were analyzed. View Data\n\n\n\nRead the open letter to the mayor addressing key concerns and recommendations. Read and Sign Letter\n\n\n\nThis project was created as part of GTECH 78534 to address COVID-19 concerns in our city."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "open_letter.html",
+    "href": "open_letter.html",
+    "title": "Template Letter to the Mayor Regarding the Conditions of New Yorkers during COVID-19",
+    "section": "",
+    "text": "I am writing this letter to express the concerns that arose in New York City during the early stages of the Global COVID-19 pandemic and how important a role GIS can play in emergency response. Although 5 years after the outbreak, It remains important to fully understand and process past events in order to develop a plan for addressing similar crises in the future.\nThe COVID-19 pandemic in its early stages hit the world hard. As the virus spread rapidly, cities like New York, Milan, and Wuhan became epicenters of the crisis, experiencing an exponential rise in cases that strained resources and left governments scrambling to respond. These hotspots saw hospitals overwhelmed with patients, critical shortages of medical supplies, and the urgent need for coordinated responses at local, national, and international levels. The speed with which the virus spread exposed vulnerabilities in public health infrastructure, while also highlighting the importance of timely, data-driven decision-making to mitigate its effects.\nPlot.plot({ width:1200, marks: [ Plot.text([” The US in particular, in April of 2020, became the top global hotspot having more than 500,000 confirmed cases by that point (CDC).”], {frameAnchor: “middle”, fill: ‘red’, fontSize: 20 }) ] })"
+  },
+  {
+    "objectID": "Map.html",
+    "href": "Map.html",
+    "title": "Map",
+    "section": "",
+    "text": "Here is the dashboard created on ArcGIS Online to show positive cases per MODZCTA in NYC."
+  }
+]
