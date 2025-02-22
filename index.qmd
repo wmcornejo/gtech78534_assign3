@@ -10,19 +10,19 @@ There is a map section, data to show what is used, the open letter for the last 
 ::: g-col-4
 ### Map
 
-Explore the interactive map to visualize COVID-19 data across the city. [View Map](#map-section)
+Explore the interactive map to visualize COVID-19 data across the city. [View Map](Map.html)
 :::
 
 ::: g-col-4
 ### Data
 
-See the datasets used in this project and how they were analyzed. [View Data](#data-section)
+See the datasets used in this project and how they were analyzed. [View Data](Data.hmtl)
 :::
 
 ::: g-col-4
 ### Template Letter
 
-Read the open letter to the mayor addressing key concerns and recommendations. [Read and Sign Letter](#open-letter)
+Read the open letter to the mayor addressing key concerns and recommendations. [Read and Sign Letter](open-letter.html)
 :::
 :::
 
