@@ -33,7 +33,7 @@ See the datasets used in this project and how they were analyzed.\
 ### Open Letter
 
 Read and sign the open letter to the mayor, addressing key concerns and recommendations for improving public health data communication.\
-[Read and Sign Letter](open-letter.html){.btn .btn-success}
+[Read and Sign Letter](open_letter.html){.btn .btn-success}
 :::
 :::
 
