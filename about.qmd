@@ -2,6 +2,27 @@
 title: "About"
 ---
 
-![WHO Map](https://scitechdaily.com/images/COVID-19-Coronavirus-Map-March-15.jpg)
+## Visualizing Public Health Crises
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PXhIIYp-DPI?si=UqHkz13LfQMJOgc6&amp;start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+### Mapping the Spread of COVID-19
+
+The image below is a **COVID-19 global map** created by the World Health Organization (WHO). It illustrates the spread of the virus during the early stages of the pandemic. Maps like this were critical for understanding how the virus moved across borders and identifying hotspots where resources were needed most.
+
+![WHO Map](https://scitechdaily.com/images/COVID-19-Coronavirus-Map-March-15.jpg)  
+*Source: WHO COVID-19 Global Map, March 2020*
+
+---
+
+### The Role of GIS in Public Health
+
+The video below provides an overview of how **Geographic Information Systems (GIS)** have been used to track and respond to the COVID-19 pandemic in NY State.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PXhIIYp-DPI?si=UqHkz13LfQMJOgc6&amp;start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+*Video: See where COVID-19 spread in New York*
+
+---
+
+## About This Project
+
+This project was created as part of **GTECH 78534: WebGIS** to explore the role of maps in addressing public health crises like COVID-19.
+

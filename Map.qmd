@@ -1,17 +1,20 @@
 ---
-title: "Map"
+title: "Maps"
 ---
 
+This page would contain various visualizations that communicate geospatial data in a user-interactive environment
 Here is the dashboard created on ArcGIS Online to show positive cases per MODZCTA in NYC.
 
 <div style="display: flex; padding: 20px; margin-left: -120px;">
   <iframe style="width: 1200px; height: 700px; border: 2px solid #ddd; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);" src="https://hunter.maps.arcgis.com/apps/dashboards/d2e637f5a2334034bd4c0d671a3fe541" title="ArcGIS Dashboard" frameborder="1" allowfullscreen></iframe>
 </div>
 
-Using the above dashboard, we can find some of the most affected neighborhoods:
+Using the above dashboard, we can identify some of the most affected neighborhoods in NYC:
 
-| Neighborhood   | Borough| People Positive | People Tested  |
-|-|
-| Bloomfield/Freshkills Park  | Staten Island| 199  | 3,451   |
-| Midwood     | Brookyln| 165  | 2,926   |
-| Gravesend/Homecrest| Brookyln  | 163  | 2,012|
+| Neighborhood               | Borough         | People Positive | People Tested |
+|----------------------------|-----------------|-----------------|---------------|
+| Bloomfield/Freshkills Park | Staten Island   | 199             | 3,451         |
+| Midwood                    | Brooklyn        | 165             | 2,926         |
+| Gravesend/Homecrest        | Brooklyn        | 163             | 2,012         |
+
+---

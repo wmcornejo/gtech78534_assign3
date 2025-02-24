@@ -20,8 +20,6 @@ Plot.plot({
 })
 ```
 
-The above visual only shows COVID-19 in New York State, not in just NYC which was considered the global hotspot at one point. In order to better manage a crisis as such, GIS could have been implemented more to visualize the spread of the virus. More specifically, it's crucial to look at the number of positive cases by MODZCTA (something similar to zipcodes). The below ArcGIS dashboard effectively communicated the areas that were most affected. 
-
 It is imperative that moving forward the city learns from these hardships and creates a more resilient and equitable response framework. GIS can be used to:
 
 1. Strengthen medical facilities by identifying areas in need of additional resources and ensuring hospitals are better equipped and prepared for future large-scale emergencies.
@@ -31,8 +29,6 @@ It is imperative that moving forward the city learns from these hardships and cr
 3. Map and prioritize the needs of the most vulnerable communities, ensuring that resources and support are directed where they are needed most during times of crisis.
 
 4. Facilitate collaboration with community leaders and organizations, ensuring that response strategies reflect the unique needs of neighborhoods, with data-driven input at every level of the decision-making process.
-
-As we continue to navigate the aftermath of the pandemic, we must decisive actions to ensure New York City is better equipped to handle future emergencies. Together, we can create a more resilient, inclusive, and prepared city for all of its residents.
 
 Sincerely,
 

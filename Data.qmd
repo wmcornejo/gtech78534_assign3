@@ -2,3 +2,4 @@
 title: "Data"
 ---
 
+COVID-19 Data -  Data containing Percent positive by 7 days, People Tested, and People positive per MODZCTA. Available [Here](https://hunter.maps.arcgis.com/home/item.html?id=5238a4dbde124cf9a5a0ed696cb5f7b6&sublayer=0).
