@@ -2,5 +2,6 @@
 title: "About"
 ---
 
-About this site
+![WHO Map](https://scitechdaily.com/images/COVID-19-Coronavirus-Map-March-15.jpg)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PXhIIYp-DPI?si=UqHkz13LfQMJOgc6&amp;start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

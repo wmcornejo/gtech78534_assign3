@@ -2,30 +2,64 @@
 title: "Assignment 3"
 ---
 
-# Addressing COVID-19 Concerns to the Mayor
+# Addressing Health Concerns to NYC Officials
 
-There is a map section, data to show what is used, the open letter for the last homework
+In past public health crises, visuals have proven to be one of the most effective ways to communicate data efficiently. A prime example is **Florence Nightingale's work during the Crimean War**. She used her famous "Coxcomb" diagram to visually represent the causes of soldier mortality, highlighting that the majority of deaths were due to preventable infections rather than battlefield injuries. Her work led to significant improvements in sanitation and medical care, drastically reducing death rates (Source: [Nightingale, 1858](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2684058/)).
 
-::: grid
-::: g-col-4
+Today, in an era of rapid urbanization and global connectivity, **web maps** should be the primary medium for sharing information about health hazards in cities. By leveraging geographic information systems (GIS), we can provide real-time, actionable insights to policymakers, healthcare providers, and the public.
+
+This project serves as a call to action for NYC officials, emphasizing the critical role that **map data** can play in addressing public health emergencies like the COVID-19 pandemic. Through interactive maps and data visualizations, we can better understand the spread of diseases, allocate resources efficiently, and protect vulnerable communities.
+
+---
+
+## Explore the Project
+
+::: {.grid}
+::: {.g-col-4}
 ### Map
 
-Explore the interactive map to visualize COVID-19 data across the city. [View Map](Map.html)
+Explore the interactive map to visualize COVID-19 data across New York City.  
+[View Map](Map.html){.btn .btn-primary}
 :::
 
-::: g-col-4
+::: {.g-col-4}
 ### Data
 
-See the datasets used in this project and how they were analyzed. [View Data](Data.hmtl)
+See the datasets used in this project and how they were analyzed.  
+[View Data](Data.html){.btn .btn-secondary}
 :::
 
-::: g-col-4
-### Template Letter
+::: {.g-col-4}
+### Open Letter
 
-Read the open letter to the mayor addressing key concerns and recommendations. [Read and Sign Letter](open-letter.html)
+Read and sign the open letter to the mayor, addressing key concerns and recommendations for improving public health data communication.  
+[Read and Sign Letter](open-letter.html){.btn .btn-success}
 :::
 :::
 
-------------------------------------------------------------------------
+---
 
-This project was created as part of **GTECH 78534** to address COVID-19 concerns in our city.\
+## Why This Matters
+
+The COVID-19 pandemic exposed critical gaps in how public health data is collected, analyzed, and communicated. By adopting **web-based GIS tools**, NYC can:
+
+- **Identify hotspots**: Quickly pinpoint areas with high infection rates.
+- **Allocate resources**: Ensure hospitals, testing sites, and vaccines reach the communities that need them most.
+- **Engage the public**: Provide transparent, accessible information to build trust and encourage compliance with health guidelines.
+
+This project demonstrates how GIS can transform raw data into actionable insights, empowering decision-makers to respond more effectively to future health crises.
+
+---
+
+## About This Project
+
+This project was created as part of **GTECH 78534: WebGIS** to address COVID-19 concerns in New York City. It combines data analysis, interactive mapping, and public advocacy to highlight the importance of GIS in public health.
+
+
+
+---
+
+### References
+- Nightingale, F. (1858). *Notes on Matters Affecting the Health, Efficiency, and Hospital Administration of the British Army*. [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2684058/)
+- NYC Department of Health COVID-19 Data
+- CDC Guidelines for Public Health Communication
