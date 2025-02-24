@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Map – WebGIS</title>
+<title>Maps – WebGIS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -102,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./Map.html" aria-current="page"> 
-<span class="menu-text">Map</span></a>
+<span class="menu-text">Maps</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Data.html"> 
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Map</h1>
+<h1 class="title">Maps</h1>
 </div>
 
 
@@ -144,29 +144,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Here is the dashboard created on ArcGIS Online to show positive cases per MODZCTA in NYC.</p>
+<p>This page would contain various visualizations that communicate geospatial data in a user-interactive environment Here is the dashboard created on ArcGIS Online to show positive cases per MODZCTA in NYC.</p>
 <div style="display: flex; padding: 20px; margin-left: -120px;">
 <p><iframe style="width: 1200px; height: 700px; border: 2px solid #ddd; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);" src="https://hunter.maps.arcgis.com/apps/dashboards/d2e637f5a2334034bd4c0d671a3fe541" title="ArcGIS Dashboard" frameborder="1" allowfullscreen=""></iframe></p>
 </div>
-<p>Using the above dashboard, we can find some of the most affected neighborhoods:</p>
+<p>Using the above dashboard, we can identify some of the most affected neighborhoods in NYC:</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 22%">
+<col style="width: 22%">
+<col style="width: 19%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Neighborhood</th>
+<th>Borough</th>
+<th>People Positive</th>
+<th>People Tested</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Bloomfield/Freshkills Park</td>
+<td>Staten Island</td>
+<td>199</td>
+<td>3,451</td>
 </tr>
 <tr class="even">
 <td>Midwood</td>
+<td>Brooklyn</td>
+<td>165</td>
+<td>2,926</td>
 </tr>
 <tr class="odd">
 <td>Gravesend/Homecrest</td>
+<td>Brooklyn</td>
+<td>163</td>
+<td>2,012</td>
 </tr>
 </tbody>
 </table>
+<hr>
 
 
 
