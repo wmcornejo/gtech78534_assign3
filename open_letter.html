@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.41">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -69,10 +69,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-48ffa3e5b9d089919c6712c39e5b00f2.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c37a40b267d3139d93432c283e34c257.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d75320580429fd03ccc14abf5aea7e44.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -185,12 +185,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The COVID-19 pandemic in its early stages hit the world hard. As the virus spread rapidly, cities like New York, Milan, and Wuhan became epicenters of the crisis, experiencing an exponential rise in cases that strained resources and left governments scrambling to respond. These hotspots saw hospitals overwhelmed with patients, critical shortages of medical supplies, and the urgent need for coordinated responses at local, national, and international levels. The speed with which the virus spread exposed vulnerabilities in public health infrastructure, while also highlighting the importance of timely, data-driven decision-making to mitigate its effects.</p>
 <div class="cell">
 <div class="sourceCode cell-code hidden" id="cb1" data-startfrom="13" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 12;"><span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="dt">width</span><span class="op">:</span><span class="dv">5000</span><span class="op">,</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="dt">height</span><span class="op">:</span> <span class="dv">120</span><span class="op">,</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="dt">width</span><span class="op">:</span> <span class="dv">1900</span><span class="op">,</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="dt">height</span><span class="op">:</span> <span class="dv">200</span><span class="op">,</span></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">text</span>([<span class="st">" The US in particular, in April of 2020, became the top global hotspot having more than 500,000 confirmed cases by that point (CDC)."</span>]<span class="op">,</span> {<span class="dt">frameAnchor</span><span class="op">:</span> <span class="st">"middle"</span><span class="op">,</span> <span class="dt">fill</span><span class="op">:</span> <span class="st">'red'</span><span class="op">,</span> <span class="dt">fontSize</span><span class="op">:</span> <span class="dv">120</span> })</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  ]</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">text</span>(</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>      [</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>        <span class="st">"The US in particular, in April of 2020, became the top global hotspot </span><span class="sc">\n</span><span class="st">having more than 500,000 confirmed cases by that point (CDC)."</span> </span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>      ]<span class="op">,</span> </span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>      {</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>        <span class="dt">frameAnchor</span><span class="op">:</span> <span class="st">"middle"</span><span class="op">,</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>        <span class="dt">fill</span><span class="op">:</span> <span class="st">'red'</span><span class="op">,</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>        <span class="dt">fontSize</span><span class="op">:</span> <span class="dv">50</span><span class="op">,</span> <span class="co">// Adjust font size as needed</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Adjust vertical positioning for each line</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  ]</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-1" data-nodetype="expression">
 
@@ -206,18 +216,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ol>
 <p>Sincerely,</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" data-startfrom="35" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 34;"><span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>{strName}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="47" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 46;"><span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>strName</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<div id="ojs-cell-2" data-nodetype="expression">
+<div>
+<div id="ojs-cell-2-1" data-nodetype="expression">
 
 </div>
 </div>
 </div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3" data-startfrom="38" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 37;"><span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>viewof strName <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">text</span>({<span class="dt">label</span><span class="op">:</span> <span class="st">"Enter Name Here: "</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="48" data-source-offset="-8"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 47;"><span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>viewof strName <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">text</span>({<span class="dt">label</span><span class="op">:</span> <span class="st">"Enter Name Here: "</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<div id="ojs-cell-3" data-nodetype="declaration">
+<div>
+<div id="ojs-cell-2-2" data-nodetype="declaration">
 
+</div>
 </div>
 </div>
 </div>
@@ -226,7 +238,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlBsb3QucGxvdCh7XG4gIHdpZHRoOjUwMDAsXG4gIGhlaWdodDogMTIwLFxuICBtYXJrczogW1xuICAgIFBsb3QudGV4dChbXCIgVGhlIFVTIGluIHBhcnRpY3VsYXIsIGluIEFwcmlsIG9mIDIwMjAsIGJlY2FtZSB0aGUgdG9wIGdsb2JhbCBob3RzcG90IGhhdmluZyBtb3JlIHRoYW4gNTAwLDAwMCBjb25maXJtZWQgY2FzZXMgYnkgdGhhdCBwb2ludCAoQ0RDKS5cIl0sIHtmcmFtZUFuY2hvcjogXCJtaWRkbGVcIiwgZmlsbDogJ3JlZCcsIGZvbnRTaXplOiAxMjAgfSlcbiAgXVxufSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IntzdHJOYW1lfVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0zIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoidmlld29mIHN0ck5hbWUgPSBJbnB1dHMudGV4dCh7bGFiZWw6IFwiRW50ZXIgTmFtZSBIZXJlOiBcIn0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ3N0ck5hbWUnKSJ9XX0=
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlBsb3QucGxvdCh7XG4gIHdpZHRoOiAxOTAwLFxuICBoZWlnaHQ6IDIwMCxcbiAgbWFya3M6IFtcbiAgICBQbG90LnRleHQoXG4gICAgICBbXG4gICAgICAgIFwiVGhlIFVTIGluIHBhcnRpY3VsYXIsIGluIEFwcmlsIG9mIDIwMjAsIGJlY2FtZSB0aGUgdG9wIGdsb2JhbCBob3RzcG90IFxcbmhhdmluZyBtb3JlIHRoYW4gNTAwLDAwMCBjb25maXJtZWQgY2FzZXMgYnkgdGhhdCBwb2ludCAoQ0RDKS5cIiBcbiAgICAgIF0sIFxuICAgICAge1xuICAgICAgICBmcmFtZUFuY2hvcjogXCJtaWRkbGVcIixcbiAgICAgICAgZmlsbDogJ3JlZCcsXG4gICAgICAgIGZvbnRTaXplOiA1MCwgLy8gQWRqdXN0IGZvbnQgc2l6ZSBhcyBuZWVkZWRcbiAgICAgICAgLy8gQWRqdXN0IHZlcnRpY2FsIHBvc2l0aW9uaW5nIGZvciBlYWNoIGxpbmVcbiAgICAgIH1cbiAgICApXG4gIF1cbn0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJzdHJOYW1lXG52aWV3b2Ygc3RyTmFtZSA9IElucHV0cy50ZXh0KHtsYWJlbDogXCJFbnRlciBOYW1lIEhlcmU6IFwifSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnc3RyTmFtZScpIn1dfQ==
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
