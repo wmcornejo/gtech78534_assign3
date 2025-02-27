@@ -12,10 +12,20 @@ The COVID-19 pandemic in its early stages hit the world hard. As the virus sprea
 ```{ojs}
 //| echo: false
 Plot.plot({
-  width:5000,
-  height: 120,
+  width: 1900,
+  height: 200,
   marks: [
-    Plot.text([" The US in particular, in April of 2020, became the top global hotspot having more than 500,000 confirmed cases by that point (CDC)."], {frameAnchor: "middle", fill: 'red', fontSize: 120 })
+    Plot.text(
+      [
+        "The US in particular, in April of 2020, became the top global hotspot \nhaving more than 500,000 confirmed cases by that point (CDC)." 
+      ], 
+      {
+        frameAnchor: "middle",
+        fill: 'red',
+        fontSize: 50, // Adjust font size as needed
+        // Adjust vertical positioning for each line
+      }
+    )
   ]
 })
 ```
@@ -33,8 +43,7 @@ It is imperative that moving forward the city learns from these hardships and cr
 Sincerely,
 
 ```{ojs}
-{strName}
-```
-```{ojs}
+//| echo: false
+strName
 viewof strName = Inputs.text({label: "Enter Name Here: "})
 ```

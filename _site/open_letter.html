@@ -189,19 +189,28 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>The COVID-19 pandemic in its early stages hit the world hard. As the virus spread rapidly, cities like New York, Milan, and Wuhan became epicenters of the crisis, experiencing an exponential rise in cases that strained resources and left governments scrambling to respond. These hotspots saw hospitals overwhelmed with patients, critical shortages of medical supplies, and the urgent need for coordinated responses at local, national, and international levels. The speed with which the virus spread exposed vulnerabilities in public health infrastructure, while also highlighting the importance of timely, data-driven decision-making to mitigate its effects.</p>
 <div class="cell">
 <div class="sourceCode cell-code hidden" id="cb1" data-startfrom="13" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 12;"><span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="dt">width</span><span class="op">:</span><span class="dv">5000</span><span class="op">,</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="dt">height</span><span class="op">:</span> <span class="dv">120</span><span class="op">,</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="dt">width</span><span class="op">:</span> <span class="dv">1900</span><span class="op">,</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="dt">height</span><span class="op">:</span> <span class="dv">200</span><span class="op">,</span></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">text</span>([<span class="st">" The US in particular, in April of 2020, became the top global hotspot having more than 500,000 confirmed cases by that point (CDC)."</span>]<span class="op">,</span> {<span class="dt">frameAnchor</span><span class="op">:</span> <span class="st">"middle"</span><span class="op">,</span> <span class="dt">fill</span><span class="op">:</span> <span class="st">'red'</span><span class="op">,</span> <span class="dt">fontSize</span><span class="op">:</span> <span class="dv">120</span> })</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  ]</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">text</span>(</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>      [</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>        <span class="st">"The US in particular, in April of 2020, became the top global hotspot </span><span class="sc">\n</span><span class="st">having more than 500,000 confirmed cases by that point (CDC)."</span> </span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>      ]<span class="op">,</span> </span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>      {</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>        <span class="dt">frameAnchor</span><span class="op">:</span> <span class="st">"middle"</span><span class="op">,</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>        <span class="dt">fill</span><span class="op">:</span> <span class="st">'red'</span><span class="op">,</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>        <span class="dt">fontSize</span><span class="op">:</span> <span class="dv">50</span><span class="op">,</span> <span class="co">// Adjust font size as needed</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>        <span class="co">// Adjust vertical positioning for each line</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  ]</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-1" data-nodetype="expression">
 
 </div>
 </div>
 </div>
-<p>The above visual only shows COVID-19 in New York State, not in just NYC which was considered the global hotspot at one point. In order to better manage a crisis as such, GIS could have been implemented more to visualize the spread of the virus. More specifically, it’s crucial to look at the number of positive cases by MODZCTA (something similar to zipcodes). The below ArcGIS dashboard effectively communicated the areas that were most affected.</p>
 <p>It is imperative that moving forward the city learns from these hardships and creates a more resilient and equitable response framework. GIS can be used to:</p>
 <ol type="1">
 <li><p>Strengthen medical facilities by identifying areas in need of additional resources and ensuring hospitals are better equipped and prepared for future large-scale emergencies.</p></li>
@@ -209,21 +218,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p>Map and prioritize the needs of the most vulnerable communities, ensuring that resources and support are directed where they are needed most during times of crisis.</p></li>
 <li><p>Facilitate collaboration with community leaders and organizations, ensuring that response strategies reflect the unique needs of neighborhoods, with data-driven input at every level of the decision-making process.</p></li>
 </ol>
-<p>As we continue to navigate the aftermath of the pandemic, we must decisive actions to ensure New York City is better equipped to handle future emergencies. Together, we can create a more resilient, inclusive, and prepared city for all of its residents.</p>
 <p>Sincerely,</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2" data-startfrom="39" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 38;"><span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>{strName}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="47" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 46;"><span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>strName</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<div id="ojs-cell-2" data-nodetype="expression">
+<div>
+<div id="ojs-cell-2-1" data-nodetype="expression">
 
 </div>
 </div>
 </div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3" data-startfrom="42" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 41;"><span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a>viewof strName <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">text</span>({<span class="dt">label</span><span class="op">:</span> <span class="st">"Enter Name Here: "</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="48" data-source-offset="-8"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 47;"><span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>viewof strName <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">text</span>({<span class="dt">label</span><span class="op">:</span> <span class="st">"Enter Name Here: "</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<div id="ojs-cell-3" data-nodetype="declaration">
+<div>
+<div id="ojs-cell-2-2" data-nodetype="declaration">
 
+</div>
 </div>
 </div>
 </div>
@@ -232,7 +242,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"Plot.plot({\n  width:5000,\n  height: 120,\n  marks: [\n    Plot.text([\" The US in particular, in April of 2020, became the top global hotspot having more than 500,000 confirmed cases by that point (CDC).\"], {frameAnchor: \"middle\", fill: 'red', fontSize: 120 })\n  ]\n})\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"{strName}\n"},{"methodName":"interpret","cellName":"ojs-cell-3","inline":false,"source":"viewof strName = Inputs.text({label: \"Enter Name Here: \"})\n"},{"methodName":"interpretQuiet","source":"shinyInput('strName')"}]}
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"Plot.plot({\n  width: 1900,\n  height: 200,\n  marks: [\n    Plot.text(\n      [\n        \"The US in particular, in April of 2020, became the top global hotspot \\nhaving more than 500,000 confirmed cases by that point (CDC).\" \n      ], \n      {\n        frameAnchor: \"middle\",\n        fill: 'red',\n        fontSize: 50, // Adjust font size as needed\n        // Adjust vertical positioning for each line\n      }\n    )\n  ]\n})\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"strName\nviewof strName = Inputs.text({label: \"Enter Name Here: \"})\n"},{"methodName":"interpretQuiet","source":"shinyInput('strName')"}]}
 </script>
 <script type="module">
 window._ojs.paths.runtimeToDoc = "../..";
